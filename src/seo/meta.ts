@@ -96,13 +96,19 @@ export function websiteSchema(): Record<string, unknown> {
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
     name: SITE_NAME,
+    alternateName: "Lustra — Gemini & Omni Watermark Remover",
     url: `${SITE_URL}/`,
     description:
       "Free browser tool to remove visible Gemini and Omni watermarks from images and videos.",
+    inLanguage: "en",
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
       url: `${SITE_URL}/`,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/apple-touch-icon.png`,
+      },
     },
   };
 }
@@ -112,6 +118,7 @@ export function webAppSchema(): Record<string, unknown> {
     "@type": "WebApplication",
     "@id": `${SITE_URL}/#app`,
     name: SITE_NAME,
+    alternateName: "Lustra — Gemini & Omni Watermark Remover",
     url: `${SITE_URL}/`,
     applicationCategory: "MultimediaApplication",
     operatingSystem: "Any",

@@ -5,8 +5,10 @@ export const SITE_NAME = "Lustra";
 export const OG_IMAGE_PATH = "/og-image.png";
 export const OG_IMAGE_URL = `${SITE_URL}${OG_IMAGE_PATH}`;
 
-export const HOME_TITLE =
-  "Gemini & Omni Watermark Remover – Free Online Tool | Lustra";
+export const HOME_TITLE = "Lustra — Gemini & Omni Watermark Remover";
+
+export const HOME_ALTERNATE_NAME =
+  "Lustra — Gemini & Omni Watermark Remover";
 
 export const HOME_DESCRIPTION =
   "Free browser tool to remove visible Gemini and Omni watermarks from images and videos. Processing stays on your device—no account, no upload to our servers.";

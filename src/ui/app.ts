@@ -325,6 +325,7 @@ export function mountApp(root: HTMLElement) {
       title: HOME_TITLE,
       description: HOME_DESCRIPTION,
       path: "/",
+      // Keep FAQPage in the client graph; WebSite/WebApplication also live in index.html for crawlers.
       jsonLd: [websiteSchema(), webAppSchema(), faqSchema(HOME_FAQ)],
     });
 
