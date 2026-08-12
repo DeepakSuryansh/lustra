@@ -1,2 +1,2 @@
-/* SPA fallback for Netlify — hash routes work either way */
-/*  /index.html  200 */
+# SPA fallback so path-based SEO routes serve the app
+/*    /index.html   200
